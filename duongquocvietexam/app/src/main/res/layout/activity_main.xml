@@ -14,7 +14,7 @@
         android:textAllCaps="true"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"/>
 
@@ -41,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:background="@drawable/spinner_background"
         />
 
 
@@ -58,12 +59,12 @@
 
     <CheckBox
         android:id="@+id/cbAccept"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Would you like an email response"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginTop="5dp"
-        android:background="@color/white"/>
+        />
 
     <Button
         android:id="@+id/btnSend"
